@@ -1,1 +1,1 @@
-# AI Cloud Cost Detective 
+# AI Cloud Cost Detective
