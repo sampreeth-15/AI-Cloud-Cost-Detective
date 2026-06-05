@@ -1,6 +1,4 @@
-from fastapi.middleware.cors import CORSMiddleware
 import { useEffect, useState } from "react";
-
 
 function App() {
   const [resources, setResources] = useState([]);
@@ -14,7 +12,7 @@ function App() {
 
   return (
     <div style={{ padding: "20px" }}>
-      <h1>AI Cloud Cost Detective</h1>
+      <h1>🚀 AI Cloud Cost Detective</h1>
 
       <h2>Resources Found</h2>
 
@@ -22,7 +20,7 @@ function App() {
         <div
           key={index}
           style={{
-            border: "1px solid #ccc",
+            border: "1px solid gray",
             padding: "10px",
             marginBottom: "10px",
           }}
